@@ -1,5 +1,9 @@
 (function (App) {
 
+/*
+the syntax might feel a little strange at first. But having the ability to save the templates in plain old
+JavaScript vars might proof as very powerful.
+*/
     App.Templates.todoMain = '<div id="todoapp">' +
                              '   <div class="title">' +
                              '       <h1>Todos</h1>' +
