@@ -27,9 +27,11 @@
                              '             <a href="http://jgn.me/">J&eacute;r&ocirc;him Gravel-Niquet</a>' +
                              '       </p>' +
                              '       <p>' +
-                             '           Rewritten by <br/> ' +
-                             '<a href="http://cburgdorf.wordpress.com/">Christoph Burgdorf</a>' +
-                             '       </p>' +
+                             'Rewritten by <br/> <a href="http://cburgdorf.wordpress.com/">Christoph Burgdorf</a></p>' +
+                             '<p>This clone of backbones todo App has been written with <a href="http://knockoutjs.com">knockoutjs </a>' +
+                             'and uses an experimental new approach of in-memory templates which are stored in plain old JavaScript objects' +
+                             'Check out the source at <a href="https://github.com/cburgdorf/Knockout-ToDo-App"> my github repository</a>' +
+                             '</p>' +
                              '  </div>';
 
     App.Templates.todoItem = '<li class="todo">' +
