@@ -1,0 +1,16 @@
+obj
+bin
+deploy
+deploy/*
+_ReSharper.*
+*.csproj.user
+*.resharper.user
+*.resharper
+*.ReSharper.user
+*.ReSharper
+*.suo
+*.cache
+*.suo
+trace.log
+*.Publish.xml
+/builds
