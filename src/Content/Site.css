@@ -39,6 +39,10 @@ html {
     color: #333333;
   }
 
+.clickable{
+  cursor:pointer;
+}
+
 #todoapp {
   width: 480px;
   margin: 0 auto 40px;

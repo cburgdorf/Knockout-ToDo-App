@@ -5,12 +5,16 @@
 <script src="Scripts/knockout-latest.debug.js" type="text/javascript"></script>
 <script src="Scripts/App/App.js" type="text/javascript"></script>
 <script src="Scripts/App/App.Templates.js" type="text/javascript"></script>
+<script src="Scripts/App/App.ViewModelManager.js" type="text/javascript"></script>
+<script src="Scripts/App/App.ViewModels.BaseViewModel.js" type="text/javascript"></script>
 <script src="Scripts/App/App.ViewModels.HomeScreenViewModel.js" type="text/javascript"></script>
+<script src="Scripts/App/App.ViewModels.UserScreenViewModel.js" type="text/javascript"></script>
+<script src="Scripts/App/Booter.js" type="text/javascript"></script>
 <title>
 
 </title></head>
 <!--This is experimental: For a single page app I wanted to have an empty body with all html/templates
 coming from an in-memory template store-->
-<body data-bind="template: { name: 'todoMain' }">
+<body data-bind="template: { name: currentTemplate(), data: App.ViewModelManager.getViewModelInstance(currentTemplate()) }">
 </body>
 </html>
